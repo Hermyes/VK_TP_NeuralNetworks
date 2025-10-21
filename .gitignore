@@ -1,0 +1,22 @@
+*.zip
+*.mat
+*.csv
+*.pth
+*.ckpt
+*.pt
+
+# Игнорируем логи и промежуточные файлы
+lightning_logs/
+__pycache__/
+.ipynb_checkpoints/
+
+# Игнорируем датасеты
+cars/
+data/
+meta/
+HW6/balls_dataset/
+HW7/cars/
+HW7/lightning_logs/
+HW6/outputs/
+HW6/fasterrcnn_ball_trained.pth
+HW6/seminar_object_retina_o15_ball.zip
